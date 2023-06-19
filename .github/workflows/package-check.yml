@@ -60,8 +60,7 @@ jobs:
         run: poetry install
 
       - name: Run MyPy
-        run: poetry run mypy .
-        continue-on-error: true
+        run: poetry run mypy ./src/python_poetry_package
 
   pylint:
     timeout-minutes: 5
