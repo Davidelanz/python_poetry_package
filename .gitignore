@@ -1,0 +1,15 @@
+.coverage
+.coverage.xml
+.mypy_cache
+.pytest_cache
+.sphinx-docs
+.venv
+.vscode/
+**.egg-info/
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.virtual_documents/
+build/
+dist/
+docs/_build
+# poetry.lock
